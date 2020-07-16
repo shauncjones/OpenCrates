@@ -1,0 +1,16 @@
+[
+{
+  "modid": "opencrates",
+  "name": "Open Crates",
+  "description": "Simple crates for storage.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["shauncjones"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

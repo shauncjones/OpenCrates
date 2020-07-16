@@ -1,0 +1,7 @@
+# Items
+
+# Blocks
+tile.basic_crate.name=Basic Crate
+
+## Item Groups
+itemGroup.opencrates=Open Crates
