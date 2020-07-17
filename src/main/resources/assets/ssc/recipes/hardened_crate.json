@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iOi",
+        "CIC",
+        "iOi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+            "item": "minecraft:planks",
+            "data": 32767
+        },
+        "C": {
+            "item": "minecraft:chest"
+        },
+        "I": {
+            "item": "ssc:basic_crate"
+        }
+    },
+    "result": {
+    "item": "ssc:hardened_crate",
+    "data": 0
+  }
+}

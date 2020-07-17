@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "COC",
+        "#O#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:log",
+            "data": 32767
+        },
+        "O": {
+            "item": "minecraft:planks",
+            "data": 32767
+        },
+        "C": {
+            "item": "minecraft:chest"
+        }
+    },
+    "result": {
+    "item": "ssc:basic_crate",
+    "data": 0
+  }
+}

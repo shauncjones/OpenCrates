@@ -1,16 +1,21 @@
 [
-{
-  "modid": "opencrates",
-  "name": "Open Crates",
-  "description": "Simple crates for storage.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["shauncjones"],
-  "credits": "",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "ssc",
+    "name": "Simple Storage Crates",
+    "description": "Simple Crates for Storage",
+    "version": "${version}",
+    "credits": "",
+    "logoFile": "",
+    "mcversion": "${mcversion}",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/simple-storage-crates",
+    "updateUrl": "",
+    "authorList": [
+      "shauncjones"
+    ],
+    "parent": "",
+    "screenshots": [],
+    "dependencies": [
+      "mod_MinecraftForge"
+    ]
+  }
 ]

@@ -1,0 +1,11 @@
+# Items
+
+# Blocks
+tile.basic_crate.name=Basic Crate
+tile.hardened_crate.name=Hardened Crate
+
+inv.basic_crate.name=Basic Crate
+inv.hardened_crate.name=Hardened Crate
+
+## Item Groups
+itemGroup.ssc=Simple Storage Crates
