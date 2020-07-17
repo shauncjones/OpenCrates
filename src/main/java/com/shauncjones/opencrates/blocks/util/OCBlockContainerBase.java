@@ -4,7 +4,9 @@ import com.shauncjones.opencrates.OpenCrates;
 import com.shauncjones.opencrates.blocks.tile.TileEntityBasicCrate;
 import com.shauncjones.opencrates.blocks.tile.TileEntityHardenedCrate;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
+import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
@@ -23,7 +25,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 
-public class OCBlockContainerBase extends BlockContainer{
+public class OCBlockContainerBase extends Block implements ITileEntityProvider{
 
 	protected String name;
 	protected TileEntity te;
@@ -58,7 +60,7 @@ public class OCBlockContainerBase extends BlockContainer{
 
     @Override
     public boolean isFullCube(IBlockState state){
-        return false;
+        return true;
     }
 
     @Override
@@ -68,7 +70,7 @@ public class OCBlockContainerBase extends BlockContainer{
     
     @Override
 	public EnumBlockRenderType getRenderType(IBlockState state) {
-		return EnumBlockRenderType.ENTITYBLOCK_ANIMATED;
+		return EnumBlockRenderType.MODEL;
 	}
     
     @Override
